@@ -1,0 +1,78 @@
+.modal-content {
+    background-color: #333D42;
+}
+
+.modal-content .modal-header {
+    background-color: #262d31;
+}
+
+.modal-content .modal-header h5 {
+    color: #d5d6d7;
+}
+
+.modal-content .modal-body p {
+    color: #d5d6d7;
+}
+
+.modal-content {
+    color: #d5d6d7;
+}
+
+.modal-footer {
+    background-color: #262d31;
+}
+
+.modal-header h4 {
+    color: #d5d6d7;
+}
+
+.input-title {
+    color: #9ea0a3;
+}
+
+.progress {
+    background-color: #131c21;
+}
+
+.progress-bar {
+    background-color: #80DBB3;
+}
+
+#ptGoalText {
+    color: #131c21;
+    font-size: large;
+    /*font-weight: 600;*/
+    text-align: center;
+}
+
+#spendingGoalText {
+    color: #131c21;
+    font-size: large;
+    /*font-weight: 600;*/
+}
+
+#spendingGoalDescription {
+    color: #9ea0a3;
+}
+#ptGoalDescription {
+    color: #9ea0a3;
+}
+
+.btn-close {
+    background: transparent url("../images/close.svg") center/1em auto no-repeat;
+}
+
+.btn-secondary-surface{
+    background-color: #262d31;
+    border-color: #80DBB3;
+    border-radius: 0.5rem;
+    color: #d5d6d7;
+    width: 5rem;
+}
+
+
+.btn-secondary-surface:hover{
+    background-color: #374248;
+    border-color: #80DBB3;
+    color: #d5d6d7;
+}

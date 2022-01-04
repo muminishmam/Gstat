@@ -1,0 +1,12 @@
+.chart-background {
+    border: 0.06rem solid #646F75;
+    border-radius: 0.5rem;
+    margin-bottom: 1.25rem;
+}
+
+.chart-tags {
+    margin: 1.25rem auto 0;
+    min-width: 400px;
+    width: 43%;
+    max-width: 720px;
+}

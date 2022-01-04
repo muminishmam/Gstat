@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Poppins:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none!important;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  background-color: #131c21;
+  display: flex;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 40px;
+
+}
+
+.form-signin {
+  width: 100%;
+  max-width: 330px;
+  padding: 15px;
+  margin: auto;
+}
+
+.form-signin .checkbox {
+  font-weight: 400;
+}
+
+.form-signin .form-floating:focus-within {
+  z-index: 2;
+}
+
+.form-signin input[type="email"] {
+  margin-bottom: -1px;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.form-signin input[type="password"] {
+  margin-bottom: 10px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.btn-primary{
+  background-color: #35cd96;
+  border-color: #35cd96;
+  color: #131c21;
+}
+
+.btn-primary:hover{
+  background-color: #25a174;
+  border-color: #25a174;
+  color: #131c21;
+}
+
+#remember-me{
+  color: #d5d6d7;
+}
+
+.h3{
+  color: #d5d6d7;
+}
+
+.h1.mb-3.fw-normal{
+  color: #25a174!important;
+  font-size: 60px;
+  font-weight: 800;
+}
+
+.mb-3{
+  color: #d5d6d7!important;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.text-muted{
+  color: #25a174!important;
+}
+
+.errorP{
+  color: #FF0000;
+}

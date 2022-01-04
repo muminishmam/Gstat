@@ -1,0 +1,32 @@
+@import 'buttons.css';
+@import 'charts.css';
+@import 'global.css';
+@import 'header.css';
+@import 'home.css';
+@import 'modal.css';
+
+/*
+background/text on primary #131c21
+#1e2d35 dark blue
+surface #262d31 / #333D42
+surface on hover #2d3134 (if pressed) / #515B61
+surface border #646F75
+
+pressed #323739
+on surface text(size 22) #d5d6d7
+on surface secondary text(size 16) #9ea0a3
+pressed text #e9eaeb
+
+Primary 80DBB3 rgb(128, 219, 179)
+Primary hover #35CD96
+on surface secondary hover #371248
+Secondary: #DB80A7
+
+darksalmon #d89663 rgb(216, 150, 99)
+goldenrod #c5a215 rgb(197, 162, 21)
+olive #91ab01 rgb(145, 171, 1)
+lightseagreen #35cd96 rgb(53, 205, 150)
+skyblue #68c5e8 rgb(104, 197, 232)
+mediumorchid #d05bba rgb(208, 91, 186)
+
+ */
