@@ -1,0 +1,89 @@
+/*top links*/
+.navbar {
+    z-index: 20;
+}
+
+.navbar-dark {
+  background-color: rgba(38, 45, 49, 0.5);
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color:  #d5d6d7;
+}
+
+.navbar-dark .navbar-nav a.nav-link:hover {
+    color: #80DBB3;
+}
+
+.navbar-dark .navbar-nav a.nav-link:active {
+    color: #80DBB3;
+}
+
+.nav-text:hover{
+  color: #80DBB3;
+}
+
+.nav-text-active{
+  color: #80DBB3;
+}
+
+.dropdown-menu {
+    background-color: #262d31;
+    border: 0.06rem solid #646F75;
+}
+
+.dropdown-item {
+    color: #d5d6d7;
+}
+
+.dropdown-item:active {
+    color: #80DBB3;
+    background: #333D42;
+}
+
+.dropdown-item:focus {
+    color: #333D42;
+    background: #80DBB3;
+}
+
+.dropdown-item:hover {
+   background: #515B61;
+   color: #d5d6d7;
+}
+
+.profilepic{
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+
+.dropdown-divider{
+    background-color: #7e8083;
+}
+
+.container-fluid {
+    padding: 0 0px
+}
+
+.center {
+    position: relative;
+}
+
+@media (min-width: 992px) {
+  .vline {
+      margin: 0;
+      position: absolute;
+      top: 20%;
+      border-left: 1px solid #7e8083;
+      height: 1.5rem;
+   }
+}
+@media (max-width: 991px) {
+  .vline {
+      margin: 0;
+      position: absolute;
+      top: 20%;
+      border-top: 1px solid #7e8083;
+      width: 75%;
+   }
+ }

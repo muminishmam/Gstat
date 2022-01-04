@@ -1,0 +1,86 @@
+body {
+    background-color: #131c21;
+}
+
+#lib-cont {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap; /* Uses the resizing as per the screen size*/
+}
+
+.card {
+    display: flex;
+    flex-direction: column; /*Creates cards of equal sizes, maintaining the grid*/
+    background: #1e2d35;
+    width: 250px;
+    height: auto;
+    margin: 15px;
+    border-radius: 15px;
+    /*border: 0.06rem solid #646F75;*/
+}
+
+.addGame:hover {
+    background-color: #515B61;
+    cursor: pointer;
+}
+
+.card-img {
+    height: 170px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px 15px 0 0; /*To border the top of the images according to cards*/
+}
+
+.card h2 {
+    padding: 10px;
+    color: #d5d6d7;
+}
+
+.card p {
+    padding: 10px;
+    margin-top: auto;
+    color: #9ea0a3;
+}
+
+.card a {
+    padding: 15px 20px;
+    display: block;
+    margin: auto 50px 20px;
+}
+
+.game1 {
+    background-image: url('https://s3-us-west-2.amazonaws.com/prd-rteditorial/wp-content/uploads/2020/09/02160233/EWKA_Last_of_Us-Screenshot.jpg');
+}
+
+.game2 {
+    background-image: url('https://cdn.vox-cdn.com/thumbor/z6162GTTNr_aR3v07o7lxq6P7tY=/0x0:3840x2160/1200x800/filters:focal(1613x773:2227x1387)/cdn.vox-cdn.com/uploads/chorus_image/image/69049646/miles_morales_tech_suit.0.jpeg');
+}
+
+.game3 {
+    background-image: url('https://sportshub.cbsistatic.com/i/2021/09/21/e3332d0d-2e27-4a9d-9cc8-c7012fee9ed2/red-dead-redemption-2-micah.png');
+}
+
+.game4 {
+    background-image: url('https://www.gamespot.com/a/uploads/scale_landscape/1581/15811374/3644338-doom-eternal-review-in-progress-thumb-nologo.jpg');
+}
+
+.game5 {
+    background-image: url('https://assets1.ignimgs.com/thumbs/userUploaded/2019/7/12/hollowknight-sr-br-1562950786299.jpg');
+}
+
+.game6 {
+    background-image: url('https://assets1.ignimgs.com/2018/01/24/monsterhunterworldblog-1516809712015-1516811716019_160w.jpg?width=1280');
+}
+
+#plus {
+    display: flex;
+    justify-content: center;
+    font-size: 200px;
+    color: #80DBB3;
+    margin: -50px;
+}
+
+.card:hover {
+    /*transform: scale(1.02);*/
+    /*transition: all 0.5s ease;*/
+}

@@ -1,0 +1,63 @@
+
+
+.showcase.active{
+    right:300px;
+}
+
+.showcase video{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    opacity: 0.5;
+}
+
+.text{
+    position: absolute;
+    z-index: 10;
+    top: 30%;
+    left: 16%;
+}
+
+
+.text h2{
+    font-size: 5em;
+    font-weight: 800;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #d5d6d7;
+}
+.text h3{
+    font-size: 4em;
+    font-weight: 700;
+    line-height: 1em;
+    text-transform: uppercase;
+    color: #d5d6d7;
+}
+.text p{
+    font-size: 1.1em;
+    margin: 20px 0;
+    font-weight: 400;
+    max-width: 700px;
+    color: #d5d6d7;
+}
+
+.text a{
+    display: inline-block;
+    font-size: 1em;
+    background: #35cd96;
+    padding: 10px 30px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    transition: all 0.3s ease;
+}
+
+.text a:hover{
+    background: #25353d;
+    color: #fff;
+}

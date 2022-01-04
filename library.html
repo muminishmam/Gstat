@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS Styles -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link href="CSS/main-style-sheet.css" rel="stylesheet">
+    <link href="CSS/library.css" rel="stylesheet"/>
+
+    <!-- Components -->
+    <script src="components/header.js"></script>
+    <script src="components/playtime-buttons.js"></script>
+    <script src="components/spending-buttons.js"></script>
+    <script src="js/goals.js"></script>
+
+    <title>Library</title>
+</head>
+<body>
+
+<!-- Header -->
+<header-component></header-component>
+
+<section class="container" id="lib-cont">
+    <div class="card text-center">
+        <div class="card-img game1"></div>
+        <h2> The Last of Us </h2>
+        <p> Set in the post-apocalyptic United States, the game tells the story of survivors Joel and Ellie as they work
+            together to survive their westward journey across what remains of the country. </p>
+        <a href="https://www.youtube.com/watch?v=qPNiIeKMHyg&ab_channel=GameNews" target="_blank"
+           class="btn btn-primary-surface">
+            Trailer</a>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-img game2"></div>
+        <h2> Spider-Man </h2>
+        <p> In the Marvel’s Spider-Man universe, teenager Miles Morales is adjusting to his new home while following in
+            the footsteps of his mentor, Peter Parker, as a new Spider-Man. </p>
+        <a href="https://www.youtube.com/watch?v=qIQ3xNqkVC4&ab_channel=PlayStation" target="_blank"
+           class="btn btn-primary-surface">
+            Trailer</a>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-img game3"></div>
+        <h2> Red Dead Redemption </h2>
+        <p> Focuses on the life of Arthur Morgan and his position in the notorious Van der Linde gang. The game follows
+            the gang's decline as they are pursued by lawmen, fellow gangs and Pinkerton agents. </p>
+        <a href="https://www.youtube.com/watch?v=gmA6MrX81z4&ab_channel=RockstarGames" target="_blank"
+           class="btn btn-primary-surface"> Trailer</a>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-img game4"></div>
+        <h2> Doom Eternal </h2>
+        <p> Players once again take on the role of the Doom Slayer who battles the demonic forces of Hell, from a
+            first-person perspective. </p>
+        <a href="https://www.youtube.com/watch?v=FkklG9MA0vM&ab_channel=BethesdaSoftworks" target="_blank"
+           class="btn btn-primary-surface"> Trailer</a>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-img game5"></div>
+        <h2> Hollow Knight </h2>
+        <p> Hollow Knight is a 2D Metroidvania action-adventure game, that takes place in Hallownest, a fictional
+            ancient kingdom. The player controls an insect-like, silent, and nameless knight while exploring the
+            underground world. </p>
+        <a href="https://www.youtube.com/watch?v=UAO2urG23S4&ab_channel=TeamCherry" target="_blank"
+           class="btn btn-primary-surface">
+            Trailer</a>
+    </div>
+
+    <div class="card text-center">
+        <div class="card-img game6"></div>
+        <h2> Monster Hunter: World </h2>
+        <p> Monster Hunter: World is an action role-playing game played from a third-person perspective. Similar to
+            previous games in the series, the player takes the role of a player-created character who travels to the
+            "New World". </p>
+        <a href="https://www.youtube.com/watch?v=Ro6r15wzp2o&ab_channel=MonsterHunter" target="_blank"
+           class="btn btn-primary-surface">Trailer</a>
+    </div>
+
+    <div class="card text-center addGame" data-bs-toggle="modal" data-bs-target="#addGameModal">
+        <div class="card-img"></div>
+        <h2 id="plus">+</h2>
+        <h2> Add Game </h2>
+    </div>
+
+    <div class="modal fade" id="addGameModal" tabindex="-1" aria-labelledby="Goals" aria-hidden="true">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="exampleModalLabel">Coming Soon!</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    Adding and removing games from library has not been implemented.
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary-surface" data-bs-dismiss="modal">Cancel</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</section>
+
+<script src="js/library.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+
+</body>
+</html>
