@@ -74,5 +74,6 @@
 .btn-secondary-surface:hover{
     background-color: #374248;
     border-color: #80DBB3;
-    color: #d5d6d7;
+    /* color: #d5d6d7;*/
+    color: rgba(255, 0, 0, 0.562);
 }
