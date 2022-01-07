@@ -40,6 +40,8 @@
     <link href="CSS/signin.css" rel="stylesheet" />
     <link href="CSS/modal.css" rel="stylesheet" />
 
+    <script src="js/signin.js"></script>
+
   </head>
   <body class="text-center">
     <main class="form-signin">
@@ -61,8 +63,15 @@
             <input type="checkbox" value="remember-me" /> Remember me
           </label>
         </div>
-        <a href="index.html" class="w-100 btn btn-lg btn-primary">Log In</a>
-        <p class="mt-5 mb-3">Dont have an account?</p>
+        <button onclick="valEmail()" class="w-100 btn btn-lg btn-primary" id="LogIn">Log In</a>
+
+          <button style="background-color:rgba(7, 14, 8, 0.075); border-color:rgba(7, 14, 8, 0.075); color:rgba(7, 14, 8, 0.075)"> </button>
+     
+        <p class="body"><font color="FFFF00">
+          Dont have an account?
+        </font>
+      </font>
+        </p>
         <a href="#" class="mt-1 mb-3 text-muted"  data-bs-toggle="modal" data-bs-target="#profileModal">Register</a>
       </form>
     </main>
