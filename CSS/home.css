@@ -99,13 +99,13 @@
    margin: 90px 0;
 }
 .text-box1{
-    animation: text1 20s linear infinite;
+    animation: text1 18s linear infinite;
 }
 .text-box2{
-    animation: text2 20s linear infinite;
+    animation: text2 18s linear infinite;
 }
 .text-box3{
-    animation: text3 20s linear infinite;
+    animation: text3 18s linear infinite;
 }
 @keyframes text1{
     0%{
