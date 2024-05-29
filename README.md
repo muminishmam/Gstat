@@ -20,7 +20,3 @@ Download the .zip file and open index.html on your browser to launch.
 * Chowdhury Abdul Mumin Ishmam
 
 * Shams Ahmad
-
-# Writeup 
-
-Please check the writeup for more information. 
