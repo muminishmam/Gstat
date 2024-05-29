@@ -1,6 +1,6 @@
 # Gstat
 
-A High Fidelity Vertical Prototype for Human Computer Interaction 1 (COMP 3020)
+A High Fidelity Vertical Prototype for Human Computer Interaction 1 (COMP 3020). Intention of a dynamic web application, used to collect user game playing time and spending on games from external gaming platforms for multiple consoles, and visualize them with Chart.js and Bootstrap.
 
 # How to run the program
 
